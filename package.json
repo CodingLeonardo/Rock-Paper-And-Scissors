@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "rock-paper-or-scissors",
+  "description": "Es una aplicacion web en cual puedes jugar piedra, papel o tijeras.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
