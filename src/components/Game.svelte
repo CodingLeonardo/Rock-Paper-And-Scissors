@@ -1,5 +1,5 @@
 <script>
-
+  import Item from "./Item.svelte";
 </script>
 
 <style>
@@ -72,36 +72,6 @@
     margin-top: 2.5em;
   }
 
-  .Game-item {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2.2em 2.2em;
-  }
-
-  .Game-item img {
-    position: absolute;
-    background: white;
-    padding: 2.2em;
-    border-radius: 50%;
-    box-shadow: inset 0 0.2em 0 0.1em rgba(0, 0, 0, 0.2);
-  }
-
-  .Game-item::after {
-    content: "";
-    display: flex;
-    background: linear-gradient(
-      0deg,
-      hsl(349, 71%, 52%) 0%,
-      hsl(349, 70%, 56%) 100%
-    );
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    box-shadow: inset 0 -0.1em 0 0.2em rgba(0, 0, 0, 0.3);
-  }
-
   .Game-rules {
     position: absolute;
     bottom: 0;
@@ -136,15 +106,9 @@
     </div>
   </div>
   <div class="Game-content">
-    <div class="Game-item">
-      <img src="/images/icon-paper.svg" alt="" />
-    </div>
-    <div class="Game-item">
-      <img src="/images/icon-scissors.svg" alt="" />
-    </div>
-    <div class="Game-item">
-      <img src="/images/icon-rock.svg" alt="" />
-    </div>
+    <Item src="/images/icon-paper.svg" name="paper" />
+    <Item src="/images/icon-scissors.svg" name="scissors" />
+    <Item src="/images/icon-rock.svg" name="rock" />
   </div>
   <div class="Game-rules">
     <button>Rules</button>
