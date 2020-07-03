@@ -7,9 +7,9 @@
   "start_url": "/Rock-Paper-And-Scissors",
   "icons": [
     {
-      "src": "favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
+      "src": "rock-paper-scissors-icon.jpg",
+      "sizes": "336x335",
+      "type": "image/jpg"
     }
   ]
 }
