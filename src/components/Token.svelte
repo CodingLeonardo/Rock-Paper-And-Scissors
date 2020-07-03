@@ -105,6 +105,6 @@
   class:isShadowAnimated
   class:gridAreaBottom>
   <div on:click={handleClick}>
-    <img src={`/images/icon-${name}.svg`} alt="" />
+    <img src={`./images/icon-${name}.svg`} alt="" />
   </div>
 </div>

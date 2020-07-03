@@ -95,7 +95,7 @@
     margin: 0 auto;
     width: 40%;
 
-    background: url("/images/bg-triangle.svg");
+    background: url("./images/bg-triangle.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }

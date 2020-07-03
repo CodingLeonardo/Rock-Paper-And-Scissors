@@ -93,7 +93,7 @@
           <h1>Rules</h1>
           <button on:click={handleClick}>&#10006;</button>
         </div>
-        <img src="/images/image-rules.svg" alt="" />
+        <img src="./images/image-rules.svg" alt="" />
       </div>
     </div>
   {/if}

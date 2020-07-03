@@ -7,7 +7,7 @@
 </style>
 
 <svelte:head>
-  <title>Piedra, Papel o Tijeras</title>
+  <title>Rock, Paper And Scissors</title>
 </svelte:head>
 
 <Game />
