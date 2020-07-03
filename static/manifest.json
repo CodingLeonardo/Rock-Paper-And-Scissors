@@ -4,11 +4,21 @@
   "name": "Rock, Paper or Scissors",
   "short_name": "Rock, Paper or Scissors",
   "display": "minimal-ui",
-  "start_url": "/Rock-Paper-And-Scissors",
+  "start_url": "/Rock-Paper-And-Scissors/",
   "icons": [
     {
-      "src": "favicon-32x32.png",
-      "sizes": "32x32",
+      "src": "rock-paper-scissors-icon.png",
+      "sizes": "336x335",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
