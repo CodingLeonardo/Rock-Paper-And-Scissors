@@ -4,7 +4,7 @@
   "name": "Rock, Paper or Scissors",
   "short_name": "Rock, Paper or Scissors",
   "display": "minimal-ui",
-  "start_url": "/Rock-Paper-And-Scissors",
+  "start_url": "/Rock-Paper-And-Scissors/",
   "icons": [
     {
       "src": "rock-paper-scissors-icon.jpg",
