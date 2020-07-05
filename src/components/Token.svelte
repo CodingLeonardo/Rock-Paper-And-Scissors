@@ -97,6 +97,41 @@
       transform: scale(1.1);
     }
   }
+  @media screen and (max-width: 1440px) {
+    .Token {
+      width: 15em;
+      height: 15em;
+      padding: 1.5em;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .Token {
+      width: 11em;
+      height: 11em;
+      padding: 1.2em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .Token {
+      width: 10em;
+      height: 10em;
+      padding: 1.1em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .Token {
+      width: 9em;
+      height: 9em;
+      padding: 1.1em;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .Token {
+      width: 8em;
+      height: 8em;
+      padding: 0.9em;
+    }
+  }
 </style>
 
 <div

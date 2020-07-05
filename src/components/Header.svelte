@@ -15,16 +15,15 @@
   }
 
   .Header {
+    width: 60%;
+    border-radius: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
-    margin: 0 auto;
     border: 3px solid hsl(217, 16%, 45%);
-    border-radius: 1em;
-    padding: 1em;
-    padding-left: 1.5em;
-    margin-top: 1.6em;
+    margin: 0 auto;
+    height: 9em;
+    padding: 0 1em;
   }
 
   .Header-title {
@@ -57,6 +56,63 @@
     color: hsl(217, 16%, 45%);
     line-height: 1em;
     font-size: 3.5em;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Header {
+      border-radius: 0.5em;
+      height: 7em;
+      width: 70%;
+    }
+    .Header-title p {
+      font-size: 1.4em;
+    }
+
+    .Header-score {
+      border-radius: 0.3em;
+      padding: 0.5em 1.5em;
+    }
+    .Header-score p {
+      color: hsl(229, 64%, 46%);
+      text-transform: uppercase;
+      margin-top: 0.2em;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+    }
+
+    .Header-score h1 {
+      color: hsl(217, 16%, 45%);
+      line-height: 1em;
+      font-size: 3.5em;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .Header {
+      border-radius: 0.5em;
+      height: 7em;
+      width: 90%;
+    }
+    .Header-title p {
+      font-size: 1.4em;
+    }
+
+    .Header-score {
+      border-radius: 0.3em;
+      padding: 0.5em 1.5em;
+    }
+    .Header-score p {
+      color: hsl(229, 64%, 46%);
+      text-transform: uppercase;
+      margin-top: 0.2em;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+    }
+
+    .Header-score h1 {
+      color: hsl(217, 16%, 45%);
+      line-height: 1em;
+      font-size: 3.5em;
+    }
   }
 </style>
 

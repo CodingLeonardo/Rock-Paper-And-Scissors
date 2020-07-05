@@ -58,6 +58,9 @@
     padding: 1.5em 2em;
     border-radius: 0.5em;
   }
+  .Rules-modal img {
+    width: 100%;
+  }
   .Rules-modal > div {
     display: flex;
     justify-content: space-between;
@@ -79,6 +82,22 @@
   }
   .Rules-modal > div button:active {
     transform: scale(0.8);
+  }
+
+  @media screen and (max-width: 425px) {
+    .Rules-button {
+      bottom: 0;
+      left: 40%;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .Rules-button {
+      bottom: 0;
+      left: 35%;
+    }
+    .Rules-modal {
+      width: 90%;
+    }
   }
 </style>
 
