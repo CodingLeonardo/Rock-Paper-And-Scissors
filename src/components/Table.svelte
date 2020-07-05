@@ -167,18 +167,20 @@
       height: calc(100vh - 14em);
     }
     .Table-not-game {
-      width: 80%;
+      width: 70%;
+      background-position: 50% 50%;
+      background-size: 60% 60%;
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     .Table {
       height: calc(100vh - 12em);
     }
     .Table-not-game {
-      width: 90%;
+      width: 70%;
       height: 70%;
-      background-size: 80% 60%;
+      background-size: 70% 60%;
     }
   }
 

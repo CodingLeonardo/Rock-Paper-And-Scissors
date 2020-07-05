@@ -99,8 +99,8 @@
   }
   @media screen and (max-width: 1440px) {
     .Token {
-      width: 15em;
-      height: 15em;
+      width: 12em;
+      height: 12em;
       padding: 1.5em;
     }
   }
@@ -113,8 +113,8 @@
   }
   @media screen and (max-width: 768px) {
     .Token {
-      width: 10em;
-      height: 10em;
+      width: 9em;
+      height: 9em;
       padding: 1.1em;
     }
   }
