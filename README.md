@@ -1,6 +1,6 @@
 # Rock-Paper-And-Scissors
 
-Es una aplicacion web en cual puedes jugar piedra, papel o tijeras.
+Este proyecto es un reto de Frontend Mentor que logre maquetar y codificar, que consiste de un juego de piedra, papel o tijeras.
 
 ## Construido con 🔨
 
